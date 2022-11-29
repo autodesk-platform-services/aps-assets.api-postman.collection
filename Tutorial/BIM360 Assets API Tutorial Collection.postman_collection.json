@@ -57,7 +57,7 @@
 								"hubs"
 							]
 						},
-						"description": "Returns a collection of accessible hubs for this member.<br/>\nhttps://forge.autodesk.com/en/docs/data/v2/reference/http/hubs-GET/"
+						"description": "Returns a collection of accessible hubs for this member.<br/>\nhttps://aps.autodesk.com/en/docs/data/v2/reference/http/hubs-GET/"
 					},
 					"response": []
 				},
@@ -111,7 +111,7 @@
 								"projects"
 							]
 						},
-						"description": "Returns a collection of projects for a given hub_id. A project represents a BIM 360 Team project, a Fusion Team project, a BIM 360 Docs project, or an A360 Personal project. Multiple projects can be created within a single hub.<br/>\nhttps://forge.autodesk.com/en/docs/data/v2/reference/http/hubs-hub_id-projects-GET/"
+						"description": "Returns a collection of projects for a given hub_id. A project represents a BIM 360 Team project, a Fusion Team project, a BIM 360 Docs project, or an A360 Personal project. Multiple projects can be created within a single hub.<br/>\nhttps://aps.autodesk.com/en/docs/data/v2/reference/http/hubs-hub_id-projects-GET/"
 					},
 					"response": []
 				}
@@ -243,7 +243,7 @@
 										}
 									]
 								},
-								"description": "Get all Categories paginated.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-GET/"
+								"description": "Get all Categories paginated.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-GET/"
 							},
 							"response": []
 						},
@@ -330,7 +330,7 @@
 										}
 									]
 								},
-								"description": "Create a new Category.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-POST/"
+								"description": "Create a new Category.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-POST/"
 							},
 							"response": []
 						}
@@ -422,7 +422,7 @@
 										}
 									]
 								},
-								"description": "Create a new Status Set.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-POST/"
+								"description": "Create a new Status Set.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-POST/"
 							},
 							"response": []
 						},
@@ -486,7 +486,7 @@
 										}
 									]
 								},
-								"description": "Create an Asset Status.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-asset-statuses-POST/"
+								"description": "Create an Asset Status.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-asset-statuses-POST/"
 							},
 							"response": []
 						}
@@ -590,7 +590,7 @@
 										}
 									]
 								},
-								"description": "Retrieves information about all the BIM 360 Field Management templates in a project, including details about the items, sections, and attachments in the template. To get information about a single template, see GET templates/:id.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/checklists-templates-GET/"
+								"description": "Retrieves information about all the BIM 360 Field Management templates in a project, including details about the items, sections, and attachments in the template. To get information about a single template, see GET templates/:id.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/checklists-templates-GET/"
 							},
 							"response": []
 						},
@@ -664,7 +664,7 @@
 										}
 									]
 								},
-								"description": "Add relationships between a Category and target entities.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-relationships-POST/"
+								"description": "Add relationships between a Category and target entities.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-relationships-POST/"
 							},
 							"response": []
 						}
@@ -744,7 +744,7 @@
 								}
 							]
 						},
-						"description": "Assign a Status Set to a Category.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-status-step-set-status-step-set-id-PUT/"
+						"description": "Assign a Status Set to a Category.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-status-step-set-status-step-set-id-PUT/"
 					},
 					"response": []
 				},
@@ -834,7 +834,7 @@
 								}
 							]
 						},
-						"description": "Create a new Asset Custom Attribute.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-custom-attributes-POST/"
+						"description": "Create a new Asset Custom Attribute.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-custom-attributes-POST/"
 					},
 					"response": []
 				},
@@ -942,7 +942,7 @@
 								}
 							]
 						},
-						"description": "Assign an Asset Custom Attribute to a Category.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-custom-attribute-id-PUT/"
+						"description": "Assign an Asset Custom Attribute to a Category.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-custom-attribute-id-PUT/"
 					},
 					"response": []
 				}
@@ -1073,7 +1073,7 @@
 										}
 									]
 								},
-								"description": "Get all Categories paginated.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-GET/"
+								"description": "Get all Categories paginated.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-GET/"
 							},
 							"response": []
 						},
@@ -1148,7 +1148,7 @@
 										}
 									]
 								},
-								"description": "Batch fetch Status Sets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-batch-get-POST/"
+								"description": "Batch fetch Status Sets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-batch-get-POST/"
 							},
 							"response": []
 						},
@@ -1253,7 +1253,7 @@
 										}
 									]
 								},
-								"description": "Get the Asset Custom Attributes that are assigned to a Category. If the includeInherited query param is set to true, then return the Asset Custom Attributes that are available for the Category with inheritance.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-GET/"
+								"description": "Get the Asset Custom Attributes that are assigned to a Category. If the includeInherited query param is set to true, then return the Asset Custom Attributes that are available for the Category with inheritance.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-GET/"
 							},
 							"response": []
 						},
@@ -1331,7 +1331,7 @@
 										}
 									]
 								},
-								"description": "Batch fetch Status Sets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-batch-get-POST/"
+								"description": "Batch fetch Status Sets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-batch-get-POST/"
 							},
 							"response": []
 						},
@@ -1462,7 +1462,7 @@
 										}
 									]
 								},
-								"description": "Batch create Assets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-create-POST-v2/"
+								"description": "Batch create Assets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-create-POST-v2/"
 							},
 							"response": []
 						}
@@ -1572,7 +1572,7 @@
 										}
 									]
 								},
-								"description": "Get the Asset Custom Attributes that are assigned to a Category. If the includeInherited query param is set to true, then return the Asset Custom Attributes that are available for the Category with inheritance.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-GET/"
+								"description": "Get the Asset Custom Attributes that are assigned to a Category. If the includeInherited query param is set to true, then return the Asset Custom Attributes that are available for the Category with inheritance.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-GET/"
 							},
 							"response": []
 						},
@@ -1657,7 +1657,7 @@
 										}
 									]
 								},
-								"description": "**Private Beta, you have to use it at your own risk** <br/>\nBatch patch Assets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-patch-PATCH-v2/"
+								"description": "**Private Beta, you have to use it at your own risk** <br/>\nBatch patch Assets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-patch-PATCH-v2/"
 							},
 							"response": []
 						}
@@ -1700,7 +1700,7 @@
 										"{{project_id}}"
 									]
 								},
-								"description": "Returns a project for a given project_id.<br/>\nhttps://forge.autodesk.com/en/docs/data/v2/reference/http/hubs-hub_id-projects-project_id-GET/"
+								"description": "Returns a project for a given project_id.<br/>\nhttps://aps.autodesk.com/en/docs/data/v2/reference/http/hubs-hub_id-projects-project_id-GET/"
 							},
 							"response": []
 						},
@@ -1774,7 +1774,7 @@
 										}
 									]
 								},
-								"description": "Retrieves a list of supported issue types (e.g., quality and safety) and issue subtypes (e.g., work to complete and pre-punch list) that you can allocate to an issue. <br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/ng-issue-types-GET/"
+								"description": "Retrieves a list of supported issue types (e.g., quality and safety) and issue subtypes (e.g., work to complete and pre-punch list) that you can allocate to an issue. <br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/ng-issue-types-GET/"
 							},
 							"response": []
 						},
@@ -1862,7 +1862,7 @@
 										}
 									]
 								},
-								"description": "Adds a BIM 360 issue to a project. You can create both document-related (pushpin) issues, and project-related issues.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/field-issues-POST/"
+								"description": "Adds a BIM 360 issue to a project. You can create both document-related (pushpin) issues, and project-related issues.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/field-issues-POST/"
 							},
 							"response": []
 						},
@@ -1936,7 +1936,7 @@
 										}
 									]
 								},
-								"description": "Add relationships between an Asset and target entities.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-asset-id-relationships-POST/"
+								"description": "Add relationships between an Asset and target entities.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-asset-id-relationships-POST/"
 							},
 							"response": []
 						}
@@ -2078,7 +2078,7 @@
 										}
 									]
 								},
-								"description": "Retrieves a list of relationships that match the provided search parameters.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/relationship-service-v2-search-relationships-GET/"
+								"description": "Retrieves a list of relationships that match the provided search parameters.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/relationship-service-v2-search-relationships-GET/"
 							},
 							"response": []
 						},
@@ -2144,7 +2144,7 @@
 										}
 									]
 								},
-								"description": "**Private Beta, you have to use it at your own risk** <br/>\nDelete relationships for a list of IDs. The user must have entitlements for the given project that allows them to delete the corresponding Asset or Category.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-relationships-delete-POST/"
+								"description": "**Private Beta, you have to use it at your own risk** <br/>\nDelete relationships for a list of IDs. The user must have entitlements for the given project that allows them to delete the corresponding Asset or Category.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-relationships-delete-POST/"
 							},
 							"response": []
 						}
@@ -2218,7 +2218,7 @@
 								}
 							]
 						},
-						"description": "Batch fetch Assets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-get-POST/"
+						"description": "Batch fetch Assets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-get-POST/"
 					},
 					"response": []
 				},
@@ -2286,7 +2286,7 @@
 								}
 							]
 						},
-						"description": "Batch fetch Assets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-get-POST/"
+						"description": "Batch fetch Assets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-batch-get-POST/"
 					},
 					"response": []
 				}
@@ -2396,7 +2396,7 @@
 										}
 									]
 								},
-								"description": "Get a Project’s Status Step Sets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-GET/"
+								"description": "Get a Project’s Status Step Sets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-GET/"
 							},
 							"response": []
 						},
@@ -2486,7 +2486,7 @@
 										}
 									]
 								},
-								"description": "Get all Assets Statuses paginated.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-asset-statuses-GET/"
+								"description": "Get all Assets Statuses paginated.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-asset-statuses-GET/"
 							},
 							"response": []
 						}
@@ -2609,7 +2609,7 @@
 								}
 							]
 						},
-						"description": "Get all Assets paginated.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-GET/"
+						"description": "Get all Assets paginated.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-GET/"
 					},
 					"response": []
 				},
@@ -2702,7 +2702,7 @@
 								}
 							]
 						},
-						"description": "Get all Categories paginated.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-GET/"
+						"description": "Get all Categories paginated.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-GET/"
 					},
 					"response": []
 				},
@@ -2768,7 +2768,7 @@
 								}
 							]
 						},
-						"description": "Batch fetch Status Sets.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-batch-get-POST/"
+						"description": "Batch fetch Status Sets.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-status-step-sets-batch-get-POST/"
 					},
 					"response": []
 				},
@@ -2849,7 +2849,7 @@
 								}
 							]
 						},
-						"description": "Get the pool of all Custom Attributes with pagination.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-custom-attributes-GET/"
+						"description": "Get the pool of all Custom Attributes with pagination.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-custom-attributes-GET/"
 					},
 					"response": []
 				},
@@ -2936,7 +2936,7 @@
 								}
 							]
 						},
-						"description": "Get the Asset Custom Attributes that are assigned to a Category. If the includeInherited query param is set to true, then return the Asset Custom Attributes that are available for the Category with inheritance.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-GET/"
+						"description": "Get the Asset Custom Attributes that are assigned to a Category. If the includeInherited query param is set to true, then return the Asset Custom Attributes that are available for the Category with inheritance.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-custom-attributes-GET/"
 					},
 					"response": []
 				},
@@ -3057,7 +3057,7 @@
 								}
 							]
 						},
-						"description": "Retrieves a list of relationships that match the provided search parameters.<br/>\nhttps://forge.autodesk.com/en/docs/bim360/v1/reference/http/relationship-service-v2-search-relationships-GET/"
+						"description": "Retrieves a list of relationships that match the provided search parameters.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/relationship-service-v2-search-relationships-GET/"
 					},
 					"response": []
 				}

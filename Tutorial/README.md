@@ -1,16 +1,15 @@
 # BIM360 Assets API Step-by-Step Tutorial
 
-![Platforms](https://img.shields.io/badge/Web-Windows|Linux|MacOS-lightgray.svg)
+[![Postman](https://img.shields.io/badge/Postman-v8-orange.svg)](https://www.getpostman.com/)
+
 [![oAuth2](https://img.shields.io/badge/Authentication-v1-green.svg)](http://developer.autodesk.com/)
 [![Data-Management](https://img.shields.io/badge/Data%20Management-v2-green.svg)](http://developer.autodesk.com/)
 [![BIM360-Assets](https://img.shields.io/badge/BIM360%20Assets-beta-green.svg)](http://developer.autodesk.com/)
 
-[![Postman](https://img.shields.io/badge/Postman-v8-orange.svg)](https://www.getpostman.com/)
-
 ![Beginner](https://img.shields.io/badge/Level-Beginner-green.svg)
 [![License](https://img.shields.io/:license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
-This folder contains a Postman Collection that includes the requests covering the current main workflow of BIM360 Assets. The collection together with the environment shows you how to use Assets API. It includes [Retrieve BIM 360 Account and Project ID](#asset-tutorial-1), [Setup BIM 360 Assets Settings](#asset-tutorial-2), [Create BIM 360 Assets Data](#asset-tutorial-3), and [Retrieve BIM 360 Assets Data](#asset-tutorial-4).
+This folder contains a Postman Collection that includes the requests covering the current main workflow of BIM360 [Assets](https://aps.autodesk.com/en/docs/bim360/v1/overview/field-guide/assets/). The collection together with the environment shows you how to use Assets API. It includes [Retrieve BIM 360 Account and Project ID](#asset-tutorial-1), [Setup BIM 360 Assets Settings](#asset-tutorial-2), [Create BIM 360 Assets Data](#asset-tutorial-3), and [Retrieve BIM 360 Assets Data](#asset-tutorial-4).
 
 ![Collection](Img/collection.png)
 
@@ -20,7 +19,7 @@ This folder contains a Postman Collection that includes the requests covering th
 [Click here or click on the above picture to view the video](https://youtu.be/2u3kSjm-XEo)
 
 ## Preparation before you begin:
-- [Create Forge App, get access to a BIM 360 Account](https://forge.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/get-access-to-account/)
+- [Create APS App, get access to a BIM 360 Account](https://aps.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/get-access-to-account/)
 - [Create BIM360 project, activate Assets module, setup project for Assets](https://help.autodesk.com/view/BIM360D/ENU/?guid=BIM360D_Assets_set_up_assets_set_up_html);
 
 ## Instructions to run the Postman tutorial are as below:
@@ -29,8 +28,8 @@ This folder contains a Postman Collection that includes the requests covering th
 
 ### Setup Postman environment and Authorization:
 - Import Postman environment & collection, please setup the following environment vialables, 
-    - client_id:     Forge App Id.
-    - client_secret: Forge App Secret.
+    - client_id:     APS App Id.
+    - client_secret: APS App Secret.
 
 - Please add the Authorization for the collection, click **Edit Collection**, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
 ![3leggedToken](Img/3leggedToken.png)
@@ -125,4 +124,4 @@ This folder contains a Postman Collection that includes the requests covering th
 This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
 
 ## Written by
-Eason Kang [@yiskang](https://twitter.com/yiskang), [Forge Partner Development](http://forge.autodesk.com)
+Eason Kang [@yiskang](https://twitter.com/yiskang), [APS Partner Development](http://aps.autodesk.com)

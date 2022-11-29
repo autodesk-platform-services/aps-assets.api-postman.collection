@@ -1,16 +1,15 @@
 # BIM360 Assets API List
 
-![Platforms](https://img.shields.io/badge/Web-Windows|MacOS-lightgray.svg)
+[![Postman](https://img.shields.io/badge/Postman-v8-orange.svg)](https://www.getpostman.com/)
+
 [![oAuth2](https://img.shields.io/badge/Authentication-v1-green.svg)](http://developer.autodesk.com/)
 [![Data-Management](https://img.shields.io/badge/Data%20Management-v2-green.svg)](http://developer.autodesk.com/)
 [![BIM360-Assets](https://img.shields.io/badge/BIM360%20Assets-beta-green.svg)](http://developer.autodesk.com/)
 
-[![Postman](https://img.shields.io/badge/Postman-v8-orange.svg)](https://www.getpostman.com/)
-
 ![Beginner](https://img.shields.io/badge/Level-Beginner-green.svg)
 [![License](https://img.shields.io/:license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
-This folder contains a Postman Collection that includes all the current BIM360 Assets API Beta(2021-xx-xx). The collection together with the environment help you easily test these endpoints.
+This folder contains a Postman Collection that includes all the current BIM360 Assets API. The collection together with the environment help you easily test these endpoints.
 
 ![Collection](Img/collection.png)
 
@@ -18,13 +17,13 @@ This folder contains a Postman Collection that includes all the current BIM360 A
 ## Instructions to run the Postman collection are as below:
 
 ### Preparation before you begin:
-- [Create Forge App, get access to a BIM 360 Account](https://forge.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/get-access-to-account/)
+- [Create APS App, get access to a BIM 360 Account](https://aps.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/get-access-to-account/)
 - [Create BIM360 project, activate Assets module, setup project for Assets](https://help.autodesk.com/view/BIM360D/ENU/?guid=BIM360D_Assets_set_up_assets_set_up_html);
 
 ### Setup Postman environment and Authorization:
 - Import Postman environment & collection, please setup the following environment vialables, 
-    - client_id:     Forge App Id.
-    - client_secret: Forge App Secret.
+    - client_id:     APS App Id.
+    - client_secret: APS App Secret.
     - hub_name: The name of BIM 360 hub/account that you want to operate on.
     - project_name:  The project name that you want to operate on.
 
@@ -43,4 +42,4 @@ This folder contains a Postman Collection that includes all the current BIM360 A
 This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](../LICENSE) file for full details.
 
 ## Written by
-Eason Kang [@yiskang](https://twitter.com/yiskang), [Forge Partner Development](http://forge.autodesk.com)
+Eason Kang [@yiskang](https://twitter.com/yiskang), [APS Partner Development](http://aps.autodesk.com)
