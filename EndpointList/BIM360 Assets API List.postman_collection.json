@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "247a2cc4-1668-4b4f-b075-7777b1b3e0bd",
+		"_postman_id": "d31719c7-028f-40ef-a366-2e94ecc6738e",
 		"name": "BIM360 Assets API List",
-		"description": "The collection together with the environment shows the whole list of the Endpoints which is released at 2021-02-16 as public beta.\n\nYou can refer to the https://aps.autodesk.com/en/docs/bim360/v1/overview/basics/ for the details about all these APIs.",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"description": "The collection together with the environment shows the whole list of the Endpoints which is released at 2021-xx-xx as public beta.\n\nYou can refer to the https://aps.autodesk.com/en/docs/bim360/v1/overview/basics/ for the details about all these APIs.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "343460"
 	},
 	"item": [
 		{
@@ -225,13 +226,13 @@
 								},
 								{
 									"key": "filter[locationId]",
-									"value": null,
+									"value": "",
 									"description": "Filter to entities with a status matching one of the provided Status IDs",
 									"disabled": true
 								},
 								{
 									"key": "filter[customAttributes][ca1]",
-									"value": null,
+									"value": "",
 									"description": "Filter to entities that match the Custom Attribute values given. Each Custom Attribute filter should be keyed by the Custom Attribute’s name field",
 									"disabled": true
 								},
@@ -242,7 +243,7 @@
 								},
 								{
 									"key": "sort",
-									"value": null,
+									"value": "",
 									"description": "Provide a valid API field name to sort by, with an optional direction (“asc” or “desc”). In the case of custom attributes, dot notation is used, e.g. “customAttributes.ca3 desc” Multiple comma-separated expressions may be provided for secondary sorts",
 									"disabled": true
 								},
@@ -259,7 +260,7 @@
 								},
 								{
 									"key": "includeSubLocations",
-									"value": null,
+									"value": "",
 									"description": "Include Assets belonging to all sub-locations in the Locations hierarchy. Must be combined with a single value for filter[locationId].",
 									"disabled": true
 								}
@@ -268,7 +269,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -341,7 +341,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -409,7 +408,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -487,7 +485,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -541,7 +538,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -659,7 +655,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -717,7 +712,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -781,7 +775,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -867,7 +860,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -933,7 +925,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -997,7 +988,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1061,13 +1051,11 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								},
 								{
 									"key": "customAttributeId",
 									"value": "{{custom_attribute_id}}",
-									"type": "string",
 									"description": "Asset Custom Attribute ID"
 								}
 							]
@@ -1148,13 +1136,11 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								},
 								{
 									"key": "categoryId",
 									"value": "{{asset_category_id}}",
-									"type": "string",
 									"description": "Category ID"
 								}
 							]
@@ -1249,19 +1235,16 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								},
 								{
 									"key": "categoryId",
 									"value": "{{asset_category_id}}",
-									"type": "string",
 									"description": "Category ID"
 								},
 								{
 									"key": "customAttributeId",
 									"value": "{{custom_attribute_id}}",
-									"type": "string",
 									"description": "Asset Custom Attribute ID"
 								}
 							]
@@ -1347,7 +1330,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1413,7 +1395,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1477,7 +1458,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1563,7 +1543,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1629,7 +1608,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1693,7 +1671,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1759,7 +1736,6 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
@@ -1825,19 +1801,16 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								},
 								{
 									"key": "categoryId",
 									"value": "{{asset_category_id}}",
-									"type": "string",
 									"description": "Category ID"
 								},
 								{
 									"key": "statusStepSetId\n",
 									"value": "{{asset_status_step_set_id}}",
-									"type": "string",
 									"description": "The Status Set ID"
 								}
 							]
@@ -1849,7 +1822,7 @@
 			]
 		},
 		{
-			"name": "Asset Relationships",
+			"name": "Asset Relationships (Deprecated)",
 			"item": [
 				{
 					"name": "Assets - POST assets/:assetId/relationships",
@@ -1910,13 +1883,11 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								},
 								{
 									"key": "assetId",
 									"value": "{{asset_id}}",
-									"type": "string",
 									"description": "The system generated Asset ID"
 								}
 							]
@@ -1984,13 +1955,11 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								},
 								{
 									"key": "categoryId",
 									"value": "{{asset_category_id}}",
-									"type": "string",
 									"description": "Category ID"
 								}
 							]
@@ -2048,12 +2017,137 @@
 								{
 									"key": "projectId",
 									"value": "{{assets_project_id}}",
-									"type": "string",
 									"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
 								}
 							]
 						},
 						"description": "Delete relationships for a list of IDs. The user must have entitlements for the given project that allows them to delete the corresponding Asset or Category.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-relationships-delete-POST/"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Error Codes",
+			"item": [
+				{
+					"name": "Assets - GET error-codes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type header present and is application/json\", () => {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_domain}}/bim360/assets/v1/error-codes",
+							"host": [
+								"{{base_domain}}"
+							],
+							"path": [
+								"bim360",
+								"assets",
+								"v1",
+								"error-codes"
+							],
+							"query": [
+								{
+									"key": "cursorState",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "filter[updatedAt]",
+									"value": "2020-05-01T06:00:00Z",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Get a list of all error codes returned by the v1 API. Not paginated, simply returns all results.<br/>"
+					},
+					"response": []
+				},
+				{
+					"name": "Assets - GET error-codes/:name",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type header present and is application/json\", () => {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_domain}}/bim360/assets/v1/error-codes/:errorCodeName",
+							"host": [
+								"{{base_domain}}"
+							],
+							"path": [
+								"bim360",
+								"assets",
+								"v1",
+								"error-codes",
+								":errorCodeName"
+							],
+							"variable": [
+								{
+									"key": "errorCodeName",
+									"value": "GENERAL_ERROR",
+									"description": "The name of an Error Code returned in an error response in the errorCode field"
+								}
+							]
+						},
+						"description": "Get an Error Code by name. Error Code names are returned in error responses in the \"errorCode\" field.<br/>"
 					},
 					"response": []
 				}

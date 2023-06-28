@@ -3,7 +3,8 @@
 		"_postman_id": "eb0f09c3-f248-4ff8-a643-f88a3dd9b418",
 		"name": "BIM360 Assets API Tutorial Collection",
 		"description": "The collection and the environment show you how to create a new category, create a new asset with status, create custom attributes, associate it with assets, and update the attribute value.\n\n1. Retrieve BIM 360 Account and Project ID: It contains a set of Postman scripts demonstrating how to obtain your BIM 360 Account and Project ID. If you already have these, you can skip this tutorial.\n\n2. Setup BIM 360 Assets Settings: It contains a set of Postman scripts demonstrating how to set up a new BIM 360 project's Asset settings.\n\n3. Create BIM 360 Assets Data:  It contains a set of Postman scripts demonstrating how to create Asset data, work with Issue API to crate an issue, and assign the issue to an asset.\n\n4. Retrieve BIM 360 Assets Data: It contains a set of Postman scripts demonstrating how to fetch your complete set of BIM 360 Asset data and metadata. This collection can be for the entirety of your Asset data or filtered to a subset of Asset data.",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "343460"
 	},
 	"item": [
 		{
@@ -1887,7 +1888,7 @@
 											"    pm.expect(responseBody && responseBody.length > 0).to.eql(true);",
 											"    pm.expect(responseBody[0]).to.have.property(\"id\");",
 											"",
-											"    pm.environment.set(\"asset_issue_relationship_id\", responseBody[0].id);",
+											"    pm.environment.set(\"asset_category_checklist_template_relationship_id\", responseBody[0].id);",
 											"});"
 										],
 										"type": "text/javascript"
@@ -1895,7 +1896,7 @@
 								}
 							],
 							"request": {
-								"method": "POST",
+								"method": "PUT",
 								"header": [
 									{
 										"key": "Content-Type",
@@ -1904,39 +1905,29 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"entities\": [\n        {\n            \"id\": \"{{issue_id}}\",\n            \"type\": \"issue\"\n        }\n    ]\n}"
+									"raw": "[\n    {\n        \"entities\": [\n            {\n                \"domain\": \"autodesk-bim360-asset\",\n                \"type\": \"asset\",\n                \"id\": \"{{asset_id}}\"\n            },\n            {\n                \"domain\": \"autodesk-bim360-issue\",\n                \"type\": \"issue\",\n                \"id\": \"{{issue_id}}\"\n            }\n        ]\n    }\n]"
 								},
 								"url": {
-									"raw": "{{base_domain}}/bim360/assets/v1/projects/:projectId/assets/:assetId/relationships",
+									"raw": "{{base_domain}}/bim360/relationship/v2/containers/:containerId/relationships",
 									"host": [
 										"{{base_domain}}"
 									],
 									"path": [
 										"bim360",
-										"assets",
-										"v1",
-										"projects",
-										":projectId",
-										"assets",
-										":assetId",
+										"relationship",
+										"v2",
+										"containers",
+										":containerId",
 										"relationships"
 									],
 									"variable": [
 										{
-											"key": "projectId",
-											"value": "{{assets_project_id}}",
-											"type": "string",
-											"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
-										},
-										{
-											"key": "assetId",
-											"value": "{{asset_id}}",
-											"type": "string",
-											"description": "The system generated Asset ID"
+											"key": "containerId",
+											"value": "{{assets_project_id}}"
 										}
 									]
 								},
-								"description": "Add relationships between an Asset and target entities.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-assets-asset-id-relationships-POST/"
+								"description": "Add relationships between a Category and target entities.<br/>\nhttps://aps.autodesk.com/en/docs/bim360/v1/reference/http/assets-categories-category-id-relationships-POST/"
 							},
 							"response": []
 						}
@@ -2120,27 +2111,25 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"relationshipIds\": {{asset_relationship_id_array}}\n}"
+									"raw": "{{asset_relationship_id_array}}"
 								},
 								"url": {
-									"raw": "{{base_domain}}/bim360/assets/v1/projects/:projectId/relationships:delete",
+									"raw": "{{base_domain}}/bim360/relationship/v2/containers/:containerId/relationships:delete",
 									"host": [
 										"{{base_domain}}"
 									],
 									"path": [
 										"bim360",
-										"assets",
-										"v1",
-										"projects",
-										":projectId",
+										"relationship",
+										"v2",
+										"containers",
+										":containerId",
 										"relationships:delete"
 									],
 									"variable": [
 										{
-											"key": "projectId",
-											"value": "{{assets_project_id}}",
-											"type": "string",
-											"description": "BIM 360 project ID. Must be a UUID or a Project ID of the form “b.{UUID}”"
+											"key": "containerId",
+											"value": "{{assets_project_id}}"
 										}
 									]
 								},
