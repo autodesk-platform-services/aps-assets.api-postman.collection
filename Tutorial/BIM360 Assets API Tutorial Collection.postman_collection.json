@@ -3078,6 +3078,21 @@
 		"type": "oauth2",
 		"oauth2": [
 			{
+				"key": "client_authentication",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{base_domain}}authentication/v2/token",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "{{base_domain}}authentication/v2/authorize",
+				"type": "string"
+			},
+			{
 				"key": "scope",
 				"value": "data:write data:create data:read",
 				"type": "string"
@@ -3085,21 +3100,6 @@
 			{
 				"key": "redirect_uri",
 				"value": "https://www.postman.com/oauth2/callback",
-				"type": "string"
-			},
-			{
-				"key": "accessTokenUrl",
-				"value": "{{base_domain}}/authentication/v1/gettoken",
-				"type": "string"
-			},
-			{
-				"key": "authUrl",
-				"value": "{{base_domain}}/authentication/v1/authorize",
-				"type": "string"
-			},
-			{
-				"key": "client_authentication",
-				"value": "body",
 				"type": "string"
 			},
 			{
