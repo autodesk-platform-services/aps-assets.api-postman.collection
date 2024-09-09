@@ -24,7 +24,7 @@ This folder contains a Postman Collection that includes the requests covering th
     - client_id:     APS App Id.
     - client_secret: APS App Secret.
 
-- Please add the Authorization for the collection, click **Edit Collection**, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
+- Please add the Authorization for the collection, click on the **Collection** folder, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
 ![3leggedToken](Img/3leggedToken.png)
     - Callback URL: https://www.postman.com/oauth2/callback
     - Auth URL: https://developer.api.autodesk.com/authentication/v2/authorize 
@@ -98,7 +98,7 @@ This folder contains a Postman Collection that includes the requests covering th
 ### Tutorials about workflow
 
 - Import the Postman **Collection** and **Environment** under the same folder.
-- Please add the Authorization for the collection, click **Edit Collection**, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
+- Please add the Authorization for the collection, click on the **Collection** folder, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
 ![3leggedToken](Img/3leggedToken.png)
     - Callback URL: https://www.postman.com/oauth2/callback
     - Auth URL: https://developer.api.autodesk.com/authentication/v2/authorize 
