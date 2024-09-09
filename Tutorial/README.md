@@ -2,9 +2,9 @@
 
 [![Postman](https://img.shields.io/badge/Postman-v8-orange.svg)](https://www.getpostman.com/)
 
-[![oAuth2](https://img.shields.io/badge/Authentication-v1-green.svg)](http://developer.autodesk.com/)
-[![Data-Management](https://img.shields.io/badge/Data%20Management-v2-green.svg)](http://developer.autodesk.com/)
-[![BIM360-Assets](https://img.shields.io/badge/BIM360%20Assets-beta-green.svg)](http://developer.autodesk.com/)
+[![oAuth2](https://img.shields.io/badge/Authentication-v2-green.svg)](http://aps.autodesk.com/)
+[![Data-Management](https://img.shields.io/badge/Data%20Management-v2-green.svg)](http://aps.autodesk.com/)
+[![BIM360-Assets](https://img.shields.io/badge/BIM360%20Assets-beta-green.svg)](http://aps.autodesk.com/)
 
 ![Beginner](https://img.shields.io/badge/Level-Beginner-green.svg)
 [![License](https://img.shields.io/:license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
@@ -13,18 +13,11 @@ This folder contains a Postman Collection that includes the requests covering th
 
 ![Collection](Img/collection.png)
 
-## Demonstration
-[![https://youtu.be/2u3kSjm-XEo](http://img.youtube.com/vi/2u3kSjm-XEo/0.jpg)](https://youtu.be/2u3kSjm-XEo "BIM 360 Assets tutorial")
-
-[Click here or click on the above picture to view the video](https://youtu.be/2u3kSjm-XEo)
-
 ## Preparation before you begin:
 - [Create APS App, get access to a BIM 360 Account](https://aps.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/get-access-to-account/)
 - [Create BIM360 project, activate Assets module, setup project for Assets](https://help.autodesk.com/view/BIM360D/ENU/?guid=BIM360D_Assets_set_up_assets_set_up_html);
 
 ## Instructions to run the Postman tutorial are as below:
-
-**Please watch the [Video](https://youtu.be/2u3kSjm-XEo) for the detail workflow, or follow the steps:**
 
 ### Setup Postman environment and Authorization:
 - Import Postman environment & collection, please setup the following environment vialables, 
@@ -34,8 +27,8 @@ This folder contains a Postman Collection that includes the requests covering th
 - Please add the Authorization for the collection, click **Edit Collection**, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
 ![3leggedToken](Img/3leggedToken.png)
     - Callback URL: https://www.postman.com/oauth2/callback
-    - Auth URL: https://developer.api.autodesk.com/authentication/v1/authorize 
-    - Access Token URL: https://developer.api.autodesk.com/authentication/v1/gettoken
+    - Auth URL: https://developer.api.autodesk.com/authentication/v2/authorize 
+    - Access Token URL: https://developer.api.autodesk.com/authentication/v2/token
 
 ### Tutorials of BIM360 Assets workflow
 
@@ -108,8 +101,8 @@ This folder contains a Postman Collection that includes the requests covering th
 - Please add the Authorization for the collection, click **Edit Collection**, go to **Authorization** tab, make sure to use **OAuth 2.0** to get a 3 legged token, use it in the **Request Headers**.
 ![3leggedToken](Img/3leggedToken.png)
     - Callback URL: https://www.postman.com/oauth2/callback
-    - Auth URL: https://developer.api.autodesk.com/authentication/v1/authorize 
-    - Access Token URL: https://developer.api.autodesk.com/authentication/v1/gettoken
+    - Auth URL: https://developer.api.autodesk.com/authentication/v2/authorize 
+    - Access Token URL: https://developer.api.autodesk.com/authentication/v2/token
 - Run Postman **Collection Runner**, select the collection, check&uncheck items like the below snapshot, select the environment, set **Delay** to 1000ms
 - Click **Run BIM360 Assets...** button to start, you will see the result of the workflow.
 
@@ -124,4 +117,4 @@ This folder contains a Postman Collection that includes the requests covering th
 This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
 
 ## Written by
-Eason Kang [@yiskang](https://twitter.com/yiskang), [APS Partner Development](http://aps.autodesk.com)
+Eason Kang [in/eason-kang-b4398492/](https://www.linkedin.com/in/eason-kang-b4398492), [Developer Advocate](http://aps.autodesk.com)
